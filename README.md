@@ -16,6 +16,7 @@ samples/
     dll-hijack-7MI0Ton0/
   tomcat/
     fkorean-20260606/
+    tencent-cloud-jdwp-jni-20260606/
 evidence/
   windows-bsod/
 ```
@@ -26,6 +27,7 @@ evidence/
 |------|------|------|------|------|
 | 7MI0Ton0 | Windows DLL 劫持 | 2026-05-30 | `samples/windows/dll-hijack-7MI0Ton0/` | 伪装 CEF DLL，利用合法签名程序侧载 |
 | fkorean | Tomcat WebShell / WAR | 2026-06-06 | `samples/tomcat/fkorean-20260606/` | CVE-2017-12615 Tomcat 容器中发现的可疑 WebApp |
+| 3676292 | Tomcat JDWP / JNI ELF | 2026-06-06 | `samples/tomcat/tencent-cloud-jdwp-jni-20260606/` | 暴露 JDWP 5005 后被写入并加载的 Linux JNI shared object |
 
 ## 取证材料
 
